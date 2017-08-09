@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>Vulnerable Web-App</title>
+
+    <!-- CSS
+	================================================== -->
+	<link rel="stylesheet" href="{{static_url('css/zerogrid.css')}}">
+	<link rel="stylesheet" href="{{static_url('css/style.css') }}">
+	<link rel="stylesheet" href="{{static_url('css/lightbox.css')}}">
+	
+	<!-- Custom Fonts -->
+    <link href="{{ static_url('font-awesome/css/font-awesome.min.css') }}" rel="stylesheet" type="text/css">
+	
+	<link rel="stylesheet" href="{{ static_url('css/menu.css') }}">
+	<script src="{{ static_url('js/jquery1111.min.js') }}" type="text/javascript"></script>
+	<script src="{{ static_url('js/script.js') }}"></script>	
+	
+</head>
+
+<body>
+	<div class="wrap-body">
+		<div class="header">
+			<div id='cssmenu' class="align-right">
+				<ul>
+				   <li class="active"><a href='index.html'><span>Home</span></a></li>
+				   <li><a href='server.html'><span>Server Status</span></a></li>
+			   		<li class='last'><a href='login.html'><span>Login</span></a></li>
+				</ul>
+			</div>
+		</div>
+		<!--////////////////////////////////////Container-->
+		<section id="container">
+			<div class="wrap-container">
+				<div class="zerogrid">
+					<div class="row">
+						<div class="row">
+							<div class="col-1-2">
+								<a href="index.html"><img src="/static/images/abc.png" /></a>
+							</div>
+							<div class="col-1-2">
+								<form id="form-container" action="/search" class="f-right">
+									<!--<input type="submit" id="searchsubmit" value="" />-->
+									<a class="search-submit-button" href="javascript:void(0)">
+										<i class="fa fa-search"></i>
+									</a>
+									<div id="searchtext">
+										<input type="text" id="q" name="q" placeholder="Search Something...">
+									</div>
+								</form>
+							</div>
+						</div>
+						<div class="crumbs">
+							<ul>
+								<li><a href="index.html">Home</a></li>
+								<li><a href="#">Login</a></li>
+							</ul>
+						</div>
+						<h1 class="color-red" style="margin: 20px 0">Login</h1>
+						
+						<div class="col-2-3">
+							<div class="wrap-col">
+								<div class="contact">
+									<h3 class="color-green" style="margin: 20px 0 20px 30px"></h3>
+									<div id="contact_form">
+										<form name="form1" id="ff" method="post" action="">
+											<label class="row">
+												<div class="wrap-col">
+												<input type="text" name="username" id="username" placeholder="Username" required="required" />
+												</div>
+											</label>
+											<label class="row">
+												<div class="wrap-col">
+												<input type="text" name="password" id="password" placeholder="Password" required="required" />
+												</div>
+											</label>										
+											
+											<center><input class="sendButton" type="submit" name="Login" value="Login"></center>
+											<h5>{{ msg }}</h5>
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</section>
+	</div>
+</body>
+</html>
+</html>

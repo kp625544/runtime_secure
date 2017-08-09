@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+
+    <!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>Vulnerable Web-app</title>
+    
+    <!-- CSS
+	================================================== -->
+  		<link rel="stylesheet" href="{{static_url('css/zerogrid.css')}}">
+	<link rel="stylesheet" href="{{static_url('css/style.css') }}">
+	<link rel="stylesheet" href="{{static_url('css/lightbox.css')}}">
+	
+	<!-- Custom Fonts -->
+    <link href="{{ static_url('font-awesome/css/font-awesome.min.css') }}" rel="stylesheet" type="text/css">
+	
+	<link rel="stylesheet" href="{{ static_url('css/menu.css') }}">
+	<script src="{{ static_url('js/jquery1111.min.js') }}" type="text/javascript"></script>
+	<script src="{{ static_url('js/script.js') }}"></script>
+</head>
+
+<body>
+<div class="wrap-body">
+	<div class="header">
+		<div id='cssmenu' class="align-right">
+			<ul>
+			   <li class="active"><a href='index.html'><span>Home</span></a></li>
+			   <li><a href='server.html'><span>Server Status</span></a></li>
+			   <li class='last'><a href='login.html'><span>Login</span></a></li>
+			</ul>
+		</div>
+	</div>
+		<!--////////////////////////////////////Container-->
+
+		<section class="content-box boxstyle-1 box-3">
+					<div class="zerogrid">
+						<div class="row wrap-box"><!--Start Box-->
+							<div class="header t-center">
+								<div class="wrapper">
+									<h2 class="color-yellow">
+									You Searched For: {% raw query %}</h2>
+									<span><script>var x='{% raw link %}';</script></span>
+								</div>
+							</div>						
+		</section>
+</div>
+</body>
+</html>
