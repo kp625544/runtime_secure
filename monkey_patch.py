@@ -1,7 +1,4 @@
 from cgi import escape
-import server2
-
-server2.main()
 
 def patch_xss(uri):
     return escape(uri)
