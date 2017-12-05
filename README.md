@@ -1,17 +1,19 @@
 # Runtime Web Application Self Protection
 
-TODO: Write a project description
+![Code Difference](https://github.com/kp625544/monkey_patching/blob/master/final_patch.gif)
+
+![Example Attack](https://github.com/kp625544/monkey_patching/blob/master/example.gif)
 
 ## Installation
 
-TODO: Describe the installation process
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ```r
 pip install -r requirements.txt
 ```
 
 ```r
-df <- data.frame(a=letters[1:10], b=1:10)
+python server.py #to start a local instance of the patched server
 ```
 ## Usage
 
@@ -29,14 +31,6 @@ df <- data.frame(a=letters[1:10], b=1:10)
 4. Push to the branch: `git push origin my-new-feature`
 5. Submit a pull request :D
 
-## History
-
-TODO: Write history
-
-## Credits
-
-TODO: Write credits
-
 ## License
 
-TODO: Write license
+This project is licensed under the MIT License
