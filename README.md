@@ -4,23 +4,25 @@
 
 ![Example Attack](https://github.com/kp625544/monkey_patching/blob/master/example.gif)
 
+So what's the fuss about?
+In a gist its about patching the security loopholes inside broken **Runtime web application frameworks**.
+
 ## Installation
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes
 
 ```r
 pip install -r requirements.txt
 ```
 
+## Usage
+
 ```r
 python server.py #to start a local instance of the patched server
 ```
-## Usage
-
-TODO: Write usage instructions
 
 ```r
-df <- data.frame(a=letters[1:10], b=1:10)
+To add patches change the patch_final module. Be careful you might break something ;)
 ```
 
 ## Contributing
@@ -34,3 +36,7 @@ df <- data.frame(a=letters[1:10], b=1:10)
 ## License
 
 This project is licensed under the MIT License
+
+##ToDO
+
+- Notes to deploy to production environment
