@@ -2,10 +2,15 @@
 
 ![Code Difference](https://github.com/kp625544/monkey_patching/blob/master/final_patch.gif)
 
+##                       Gif showing the code Difference hence easy migration
+
 ![Example Attack](https://github.com/kp625544/monkey_patching/blob/master/example.gif)
 
+##                       Gif showing the defence against SQLI
+
 So what's the fuss about?
-In a gist its about patching the security loopholes inside broken **Runtime web application frameworks**.
+In a gist its about patching the security loopholes inside broken:
+                **Runtime web application frameworks**.
 
 ## Installation
 
@@ -37,6 +42,6 @@ To add patches change the patch_final module. Be careful you might break somethi
 
 This project is licensed under the MIT License
 
-##ToDO
+## ToDO
 
 - Notes to deploy to production environment
