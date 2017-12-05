@@ -1,12 +1,18 @@
 # Runtime Web Application Self Protection
 
-![Code Difference](https://github.com/kp625544/monkey_patching/blob/master/final_patch.gif)
 
 ##                       Gif showing the code Difference hence easy migration
 
-![Example Attack](https://github.com/kp625544/monkey_patching/blob/master/example.gif)
+
+![Code Difference](https://github.com/kp625544/monkey_patching/blob/master/final_patch.gif)
+
 
 ##                       Gif showing the defence against SQLI
+
+
+![Example Attack](https://github.com/kp625544/monkey_patching/blob/master/example.gif)
+
+
 
 So what's the fuss about?
 In a gist its about patching the security loopholes inside broken:
