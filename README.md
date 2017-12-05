@@ -16,7 +16,7 @@
 
 So what's the fuss about?
 In a gist its about patching the security loopholes inside broken:
-                **Runtime web application frameworks**.
+                **Runtime web application frameworks**. Here we patch a vulnerable tornado application at runtime
 
 ## Installation
 
