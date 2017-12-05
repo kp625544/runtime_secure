@@ -11,9 +11,6 @@ import string
 import random
 import patch_final
 
-
-
-
 # objectiv: to patch the application function
 #tornado.web.application is the module of tornado which handles the application class
 class Application(tornado.web.Application):
